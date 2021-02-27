@@ -122,7 +122,7 @@ if(id == "e"){
     return (
     <div style={style2}>
 {/* <h1>projection and zooming</h1>
-<div>the current projection is {props.projection}</div>
+<div>the current projection is : {props.projection}</div>
 <button onClick={()=>{
     props.changeZoomLevell(props.currentZoom+1)
 }}>zoom in</button>
