@@ -454,7 +454,7 @@ if(this.sss != this.props.latlng.lat)
               <input className="form-control input-sm" value={this.state.value.west ? Math.round(Number(this.state.value.west) * 1000) / 1000: ''} type="text" placeholder="" onChange={(event) => this.nameChangedHandler(event, "s")} />
               </Col>
               <Col xs={6}>
-              <ControlLabel>شرق</ControlLabel>
+              <ControlLabel> شرق</ControlLabel>
               <input className="form-control input-sm" value={this.state.value.east ? Math.round(Number(this.state.value.east) * 1000 ) / 1000 : ''} type="text" placeholder="" onChange={(event) => this.nameChangedHandler(event, "s")} />
               </Col>
               </Row>
