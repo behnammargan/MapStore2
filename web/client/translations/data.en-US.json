@@ -5,6 +5,7 @@
         "msgId0": "{name} took {numPhotos, plural, =0 {no photos} =1 {one photo} other {# photos}} on {takenDate, date, long}.",
         "htmlTest": "{name} {surname}",
         "about_title": "About",
+        "darbareh":"تحلیل شیب",
         "aboutLbl": "About",
         "about_p0-0": "MapStore is a framework to build web mapping applications using standard mapping libraries, such as",
         "about_p0-1": "and",
@@ -2663,6 +2664,10 @@
           "About": {
             "description": "Tool that shows the About window",
             "title": "About"
+          },
+          "Darbareh": {
+            "description": "Tool that shows the About window",
+            "title": "درباره"
           },
           "AddGroup": {
             "description": "Allows users to create new layer groups in the TOC",

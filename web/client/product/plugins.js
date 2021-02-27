@@ -13,6 +13,7 @@ export default {
     plugins: {
         // product plugins
         AboutPlugin: require('./plugins/About').default,
+        Darbareh: require('./plugins/darbareh').default,
         AttributionPlugin: require('./plugins/Attribution').default,
         ExamplesPlugin: require('./plugins/Examples').default,
         FooterPlugin: require('./plugins/Footer'),
@@ -125,7 +126,9 @@ export default {
         WidgetsTrayPlugin: require('../plugins/WidgetsTray').default,
         ZoomAllPlugin: require('../plugins/ZoomAll').default,
         ZoomInPlugin: require('../plugins/ZoomIn').default,
-        ZoomOutPlugin: require('../plugins/ZoomOut').default
+        ZoomOutPlugin: require('../plugins/ZoomOut').default,
+        ExamplePlugin: require('../plugins/Example').default
+
     },
     requires: {
         ReactSwipe: require('react-swipeable-views').default,

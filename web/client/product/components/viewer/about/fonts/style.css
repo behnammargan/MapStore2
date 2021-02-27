@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Samim.';
+    src: url('Samim.eot');
+    src: url('Samim.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input,label,span{
+font-family: "Samim.";
+}
+button{
+font-family: "Samim.";
+}
